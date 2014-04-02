@@ -3,8 +3,8 @@
   </head>
   <body>
     <script type="text/javascript">
-     if (window.location.href.indexOf('https://paperboy-all.github.io') === 0) {
-       window.location.href = 'https://pepabo.github.io{{ page.url }}';
+     if (window.location.hostname.indexOf('paperboy-all.github.io') === 0) {
+       window.location.href = 'https://pepabo.github.io' + window.location.pathname;
      }
     </script>
   </body>
